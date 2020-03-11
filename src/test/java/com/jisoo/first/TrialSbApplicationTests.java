@@ -38,7 +38,7 @@ public class TrialSbApplicationTests {
 	public void userTest() {
 		
 		System.out.println(uService.getUser("test2"));
-		System.out.println("로그인 결과 : "+uService.login("test2", "test2"));
+		System.out.println("로그인 결과 : "+uService.login("test2", "test"));
 	}
     
 }

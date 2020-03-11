@@ -22,6 +22,13 @@ public class BoardDtoTest {
 		
 		BoardDto dto = new BoardDto();
 		
+		dto.setNum(num);
+		dto.setTitle(title);
+		dto.setContent(content);
+		dto.setWriter(writer);
+		dto.setPassword(password);
+		dto.setWriteDate(writeDate);
+		
 		assertThat(dto.getNum()).isEqualTo(num);
 		assertThat(dto.getContent()).isEqualTo(content);
 		assertThat(dto.getWriter()).isEqualTo(writer);
